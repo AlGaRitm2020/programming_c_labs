@@ -59,15 +59,15 @@ int main(int args, char* argv[]){
   for (int i=0; i<(int)charsCount;i++){
     switch (input[i]) {
       case '1': 
-        arr[i] = one;
+        arr[digit_char] = one;
         digit_char++;
         break;
       case '2': 
-        arr[i] = two;
+        arr[digit_char] = two;
         digit_char++;
         break;
       case '3':
-        arr[i] = three;
+        arr[digit_char] = three;
         digit_char++;
         break;
     }
