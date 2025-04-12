@@ -4,6 +4,8 @@
 // #include <ncurses.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <time.h>
+#include "sett.h"
 
 #define height 5 
 #define width 10
@@ -23,15 +25,24 @@ void render(int vi, int hi) { // vi - vertical index, hi -horizontal index
   
 }
 
+void print_rand_chars(char* arr, int size){
+  for(int i=0; i<size; i++){
+    printf("%c ", arr[i]);
+    if (i % 6==5) 
+      printf("\n");
+  } 
+}
+
 int main(int argc, char *argv[])
 {
+  srand(time(0));
   char arr[height][width];
     render(2,2);
     // initscr(); 
     // keypad(stdscr, TRUE); // Включить стрелки
    char c;
    system ("/bin/stty raw");
-   int i=0; int j=0;
+   int i=2; int j=2;
    while((c = getchar()) !='q'){
     render(i,j);
     printf("char: %d\n\r",c); 
@@ -58,6 +69,37 @@ int main(int argc, char *argv[])
     //if (f == 'C')
      // printf("goy\n"); 
    }
+  system ("/bin/stty sane");
+  printf("\n");
+    
+
+  char randChars[36];
+  char r;
+  // Set* set = malloc(sizeof(Set));
+  Set* set = (Set*)malloc(sizeof(Set));
+  set_init(set);
+  for (int i=0; set_len(set) < 36;){
+    // set_print(set);
+    r = rand()%36;
+    if (r<26)
+      r+=65;
+    else
+      r+=48-26 ;
+
+    if (!set_contain(set, r)) 
+    {
+      randChars[i++] = r;
+      set_add(set, (int)r);
+    }
+  }
+  free(set);
+
+  print_rand_chars(randChars, 36);
+
+  // for (char i=65; i<(char)255; i++)
+  //   printf("%d %c\n",i, i);
+
+    
 
   // endwin();
 

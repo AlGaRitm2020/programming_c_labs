@@ -92,23 +92,26 @@ void set_print(Set* set) {
     printf("NULL ... \n");
   }
 }
-
-int main() {
-//  Set* set = (Set*)malloc(sizeof(Set));
-  Set* set = (Set*)malloc(sizeof(Set));
-  set_init(set);
-  set_add(set, 5);
-  set_add(set, 15);
-  set_add(set, 25);
-  set_add(set, 26);
-  set_print(set);
-  set_remove(set, 15);
-  set_print(set);
-
-  free(set);
-
-
-  return 0;
-}
+//
+//  int main() {
+// //  Set* set = (Set*)malloc(sizeof(Set));
+//    Set* set = (Set*)malloc(sizeof(Set));
+//   set_init(set);
+//   set_add(set, 5);
+//   set_add(set, 5);
+//   set_add(set, 5);
+//   set_add(set, 5);
+//   set_add(set, 15);
+//   set_add(set, 25);
+//   set_add(set, 26);
+//   set_print(set);
+//   set_remove(set, 15);
+//   set_print(set);
+//
+//   free(set);
+//
+//
+//   return 0;
+// }
 
 
