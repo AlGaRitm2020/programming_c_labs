@@ -1,0 +1,12 @@
+# ninja log v6
+466	5225	1748582259187126309	CMakeFiles/graph.dir/mainwindow.cpp.o	631094a88732a39b
+1	76	1748579423650092778	build.ninja	f780888ac5628c91
+5253	5807	1748582263974126366	graph	18abc868cb7e7ce7
+233	2744	1748581656735376140	CMakeFiles/graph.dir/main.cpp.o	25d0fc718458785
+464	4291	1748582259185126309	CMakeFiles/graph.dir/graph_autogen/mocs_compilation.cpp.o	492ca75d0690faa0
+1	76	1748579423650092778	/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/cmake_install.cmake	f780888ac5628c91
+466	5253	1748582259188102653	CMakeFiles/graph.dir/plotwidget.cpp.o	502bd4f919c9f78
+4	464	1748582259152126309	/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/graph_autogen/mocs_compilation.cpp	bfa27f49e4cec8ea
+4	464	1748582259152126309	/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/graph_autogen/timestamp	bfa27f49e4cec8ea
+4	464	1748582259152126309	graph_autogen/mocs_compilation.cpp	bfa27f49e4cec8ea
+4	464	1748582259152126309	graph_autogen/timestamp	bfa27f49e4cec8ea

@@ -1,0 +1,5 @@
+/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/CMakeFiles/graph.dir
+/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/CMakeFiles/graph_autogen_timestamp_deps.dir
+/home/albert/prog/labs/qt_creator/graph/build/Desktop-Debug/CMakeFiles/graph_autogen.dir
